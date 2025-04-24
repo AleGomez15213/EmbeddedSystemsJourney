@@ -8,36 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6fdc306bd4087564",
+            "id": "f1c16596b773fd98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "README"
             }
-          }
-        ]
-      },
-      {
-        "id": "ea8b3def9c74f7a4",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "de963a845683043c",
+            "id": "a42ab390a21733ff",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Projects.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Projects"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "Projects/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for Projects"
             }
           },
           {
@@ -129,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "Projects/Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from Projects"
             }
           },
           {
@@ -158,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "Projects/Projects.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Projects"
             }
           }
         ]
@@ -184,8 +183,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fdc306bd4087564",
+  "active": "a42ab390a21733ff",
   "lastOpenFiles": [
-    "Welcome.md"
+    "Projects/Sub Projects/Custom STm32 driver for gyroscope.md",
+    "Projects/Sub Projects/Interfacing with a touchscreen.md",
+    "Projects/Projects.md",
+    "Projects/Embedded Systems Smartwatch.md",
+    "README.md",
+    "Projects/Sub-Projects/Untitled",
+    "Weekly Notes/Weekly Notes.md",
+    "Projects/Sub Projects",
+    "Projects",
+    "Welcome.md",
+    "Weekly Notes"
   ]
 }
