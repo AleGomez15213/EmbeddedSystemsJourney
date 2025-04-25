@@ -12,7 +12,7 @@ Sometimes these smaller projects will be directly implemented into the larger on
 
 ### Example
 - **Main Project** is designing an [[Embedded Systems Smartwatch]]
-	- **Sub Projects** include [[Custom STm32 driver for gyroscope]]
+	- **Sub Projects** include [[Custom STM32 driver for accelerometer]]
 	- [[Interfacing with a touchscreen]]
 
 See folder titled "Projects"

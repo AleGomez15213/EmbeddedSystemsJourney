@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "Projects/Sub Projects/Custom STM32 driver for accelerometer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Projects"
+              "title": "Custom STM32 driver for accelerometer"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "Projects/Sub Projects/Custom STM32 driver for accelerometer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Projects"
+              "title": "Backlinks for Custom STM32 driver for accelerometer"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "Projects/Sub Projects/Custom STM32 driver for accelerometer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Projects"
+              "title": "Outgoing links from Custom STM32 driver for accelerometer"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "Projects/Sub Projects/Custom STM32 driver for accelerometer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Projects"
+              "title": "Outline of Custom STM32 driver for accelerometer"
             }
           }
         ]
@@ -185,9 +185,9 @@
   },
   "active": "a42ab390a21733ff",
   "lastOpenFiles": [
-    "Projects/Sub Projects/Custom STm32 driver for gyroscope.md",
+    "Projects/Projects Structure.md",
+    "Projects/Sub Projects/Custom STM32 driver for accelerometer.md",
     "Projects/Sub Projects/Interfacing with a touchscreen.md",
-    "Projects/Projects.md",
     "Projects/Embedded Systems Smartwatch.md",
     "README.md",
     "Projects/Sub-Projects/Untitled",
