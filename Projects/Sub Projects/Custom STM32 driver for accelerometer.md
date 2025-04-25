@@ -7,7 +7,9 @@ The purpose of this project is to learn:
 This project is based on a tutorial found [here](https://www.youtube.com/watch?v=_JQAve05o_0&t=1506s&ab_channel=Phil%E2%80%99sLab). The project also incorporates creating a custom PCB board for the microcontroller and accelerometer. Ideally, this accelerometer will be something I can use for future projects like the smartwatch which will  need some kind of gyroscope or acceleration sensor.
 
 # Parts Used
-- STM32F...
+- STM32F microcontroller
+- ADXL355 accelerometer and temperature sensor
+- Custom PCB
 
 # Notes
 In order to get the device to function, I needed too...
