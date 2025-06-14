@@ -46,3 +46,14 @@ Our slope is -9.05 LSB/C so `slope` = $\frac{1}{-9.05}$. The code will look like
 dev->temp_C = -0.11049723756.0f * ( (float)tempRaw - 1852.0f ) + 25.0f
 ```
 
+## 6) Accelerometer Data
+Note that the data is **24-bits** and **two's complement**. XDATA3 is [14:12], XDATA2 is [11:4] and XDATA1 is [3:0]. XDATA1 register has more bits but we only care about the last bits which will make up the previously discussed [3:0] of acc data.
+
+```c
+x_raw = [(x3 << 24) | (x2 << 16) | (x1 & 0xF0) << 8] >> 12;
+```
+
+The above code will read the registers `x1`, `x2`, and `x3`. It will place each of these values in the correct digit location by shifting x3 by 24 (since x3 will make up the MSB), and so forth. It will also mask x1 register by `0x0F` since we only care about the upper 4 digits. Lastly, to go from a 32 bits to 22, we shift by 12.
+
+### Convert Raw data to m/s
+This is based on the ADXL355 datasheet. To convert the raw data to meaningful numbers, we need to multiply by a constant `3.90625 * 10^-6` and `9.81`. Then we save this to the acceleration variable (respective axis).
