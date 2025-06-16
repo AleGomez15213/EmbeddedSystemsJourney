@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Embedded Systems Smartwatch.md",
+                "file": "Projects/Projects Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Embedded Systems Smartwatch"
+              "title": "Projects Structure"
+            }
+          },
+          {
+            "id": "09d3b326fc15588b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zephyr RTOS Blinky.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zephyr RTOS Blinky"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -194,29 +208,31 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "698c2067dcd4c442",
+  "active": "09d3b326fc15588b",
   "lastOpenFiles": [
-    "Projects/Custom STM32 driver for accelerometer.md",
-    "Projects/Embedded Systems Smartwatch.md",
-    "Projects/Interfacing with a touchscreen.md",
-    "CPU Scheduling.md",
-    "Projects/ZephyrOS ESP Setup.md",
-    "Projects/Minecraft Touchscreen Jukebox.md",
-    "Pasted image 20250508092744.png",
-    "Pasted image 20250508092710.png",
-    "Pasted image 20250508092546.png",
+    "Projects/Projects Structure.md",
+    "Zephyr RTOS Blinky.md",
     "Weekly Notes/Weekly Notes.md",
-    "Midterm Review.md",
+    "Projects/Embedded Systems Smartwatch.md",
+    "Pasted image 20250429205743.png",
+    "Pasted image 20250508092744.png",
+    "Pasted image 20250508092546.png",
     "Pasted image 20250506193857.png",
     "Pasted image 20250505133146.png",
     "Pasted image 20250505121555.png",
     "Pasted image 20250429211602.png",
-    "Pasted image 20250429205743.png",
+    "CPU Scheduling.md",
+    "Midterm Review.md",
+    "Projects/Custom STM32 driver for accelerometer.md",
+    "Projects/Interfacing with a touchscreen.md",
+    "Projects/ZephyrOS ESP Setup.md",
+    "Projects/Minecraft Touchscreen Jukebox.md",
+    "Pasted image 20250508092710.png",
     "README.md",
-    "Projects/Projects Structure.md",
     "Projects/Sub-Projects/Untitled",
     "Projects/Sub Projects",
     "Projects",
