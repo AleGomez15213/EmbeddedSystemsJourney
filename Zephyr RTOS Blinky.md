@@ -6,7 +6,7 @@ The goal of this project is to learn the basics of using Zephyr as an RTOS. Free
 - Set up user input
 - Set up GUI
 - Interact with Zephyr application using touch screen
-The idea is that Zephyr will be used in a variety of other projects I do including the embedded systems smartwatch. This first note will only cover a basic example of blinking an LED. The above goals will be continued in later notes.
+The idea is that Zephyr will be used in a variety of other projects I do including the embedded systems smartwatch. *This first note will only cover a basic example of blinking an LED. The above goals will be continued in later notes.*
 # Set Up
 Zephyr took a long time to set up on my computer. One important thing is that filepaths with spaces can impede installing and running the zephyr apps. For example:
 `C:\Users\John Doe` can eventually cause issues when attempting to build zephyr applications. I had to reset my computer because I didn't want to risk changing the folder name to remove the space as this can sometimes cause other issues. Thankfully, it was not much of a hassle for me to do this on my machine.
@@ -77,10 +77,22 @@ To build the application, we use
 ```powershell
 west build -b esp32_devkitc/esp32/procpu -p always
 ```
-While the tutorial was able to simply pass esp32 as the board, it seems Zephyr no would prefer you specify which CPU you would like to build for. I just arbitrarily chose procpu but might change it later depending on what is required by the project.
+While the tutorial was able to simply pass esp32 as the board, it seems Zephyr requires you specify you specify which CPU you would like to build for. I just arbitrarily chose 'procpu' but I might change it later depending on what is required by the project.
 
 ## Testing
-Once the application has been built, we can flash the ESP32 chip
+Once the application has been built, we can flash the ESP32 chip.
+
+When flashing, I got an error saying `required program .../esptools.py not found`. After a quick Google search, I came across [this](https://github.com/zephyrproject-rtos/zephyr/discussions/88424) Github thread which explained the issue was with the slashes in the filepath. Since Zephyr didn't support Windows until recently, it always used the Linux paths. Copying and pasting the posted code into ``zephyrproject/zephyr/scripts/west_commands/runners/esp32.py`` resolved that issue.
+
+Another error I encountered was:
+```
+COM3 failed to connect: Failed to connect to Espressif device: No serial data received.
+For troubleshooting steps visit: https://docs.espressif.com/projects/esptool/en/latest/troubleshooting.html
+
+A fatal error occurred: Could not connect to an Espressif device on any of the 1 available serial ports.
+```
+
+Turns out my micro USB cable is not capable for data transfer so the computer didn't recognize the board even when the drivers where installed. After using a data capable micro USB capable, the program worked just fine.
 
 # Running Blinky
 In the example above, we wrote a simple program that simply goes to sleep infinitely until it's stopped. Now we would like to actually run some code on it. Before we get into coding, we need some knowledge of how Zephyr works.
@@ -186,3 +198,5 @@ k_msleep(1000);
 The code above will use `gpio_pin_set_raw()` to set the actual voltage of the pin. It takes in a device struct, pin number, and the value. A value of 1 is digital high, and 0 is digital low. This full code will cause the LED to blink every 1 second.
 
 Once we build and flash, we should see a blinking LED on the breadboard.
+
+In later examples, we will build up to designing full apps on Zephyr. See here for next continuation of project in [[Improvements to Zephyr Blinky Example]]

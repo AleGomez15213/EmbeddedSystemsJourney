@@ -8,49 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f1c16596b773fd98",
+            "id": "009a09388aebd698",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "PWM and Timers in Zephyr.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "PWM and Timers in Zephyr"
             }
           },
           {
-            "id": "feead8ad65380aee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Custom STM32 driver for accelerometer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Custom STM32 driver for accelerometer"
-            }
-          },
-          {
-            "id": "698c2067dcd4c442",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Projects Structure.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Projects Structure"
-            }
-          },
-          {
-            "id": "09d3b326fc15588b",
+            "id": "5a9b83b5a7c4d440",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Zephyr RTOS Blinky"
             }
+          },
+          {
+            "id": "f5a908389bde1a3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zephyr and Touchscreens.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zephyr and Touchscreens"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,6 +189,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -212,26 +199,42 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "09d3b326fc15588b",
+  "active": "f5a908389bde1a3d",
   "lastOpenFiles": [
-    "Projects/Projects Structure.md",
+    "Pasted image 20251127133508.png",
+    "Pasted image 20251127130951.png",
+    "Pasted image 20251127130947.png",
+    "Pasted image 20251117131305.png",
     "Zephyr RTOS Blinky.md",
+    "Zephyr and Touchscreens.md",
+    "Improvements to Zephyr Blinky Example.md",
+    "Custom Zephyr Driver.md",
+    "How To Read The Bible.md",
+    "PWM and Timers in Zephyr.md",
+    "What is an RTOS.md",
+    "Interview Practice.md",
+    "I2C Protocal.md",
+    "Projects/Custom STM32 driver for accelerometer.md",
+    "Projects/Projects Structure.md",
+    "Zephyr Button Interrupts.md",
+    "When to use uint32_t.md",
+    "SPI Protocal.md",
+    "Pasted image 20250628133453.png",
+    "Pasted image 20250628133241.png",
+    "Pasted image 20250628131005.png",
+    "Pasted image 20250628130302.png",
+    "Pasted image 20250628125932.png",
+    "C Programming.md",
+    "Enable System Console to use Printk() in Zephyr.md",
     "Weekly Notes/Weekly Notes.md",
     "Projects/Embedded Systems Smartwatch.md",
     "Pasted image 20250429205743.png",
     "Pasted image 20250508092744.png",
-    "Pasted image 20250508092546.png",
-    "Pasted image 20250506193857.png",
-    "Pasted image 20250505133146.png",
-    "Pasted image 20250505121555.png",
-    "Pasted image 20250429211602.png",
     "CPU Scheduling.md",
     "Midterm Review.md",
-    "Projects/Custom STM32 driver for accelerometer.md",
     "Projects/Interfacing with a touchscreen.md",
     "Projects/ZephyrOS ESP Setup.md",
     "Projects/Minecraft Touchscreen Jukebox.md",
-    "Pasted image 20250508092710.png",
     "README.md",
     "Projects/Sub-Projects/Untitled",
     "Projects/Sub Projects",
